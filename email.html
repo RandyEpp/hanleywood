@@ -1,445 +1,280 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-dnd="true">
 <head>
-	<title></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width" /><!-- For testing only -->
-</head>
-<body style="width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
-<style type="text/css">a:hover {
-color: #867364 !important;
-}
-a:active {
-color: #867364 !important;
-}
-a:visited {
-color: #867364 !important;
-}
-h1 a:active {
-color: #2ba6cb !important;
-}
-h2 a:active {
-color: #2ba6cb !important;
-}
-h3 a:active {
-color: #2ba6cb !important;
-}
-h4 a:active {
-color: #2ba6cb !important;
-}
-h5 a:active {
-color: #2ba6cb !important;
-}
-h6 a:active {
-color: #2ba6cb !important;
-}
-h1 a:visited {
-color: #2ba6cb !important;
-}
-h2 a:visited {
-color: #2ba6cb !important;
-}
-h3 a:visited {
-color: #2ba6cb !important;
-}
-h4 a:visited {
-color: #2ba6cb !important;
-}
-h5 a:visited {
-color: #2ba6cb !important;
-}
-h6 a:visited {
-color: #2ba6cb !important;
-}
-table.button:hover td {
-background: #2795b6 !important;
-}
-table.button:visited td {
-background: #2795b6 !important;
-}
-table.button:active td {
-background: #2795b6 !important;
-}
-table.button:hover td a {
-color: #fff !important;
-}
-table.button:visited td a {
-color: #fff !important;
-}
-table.button:active td a {
-color: #fff !important;
-}
-table.button:hover td {
-background: #2795b6 !important;
-}
-table.tiny-button:hover td {
-background: #2795b6 !important;
-}
-table.small-button:hover td {
-background: #2795b6 !important;
-}
-table.medium-button:hover td {
-background: #2795b6 !important;
-}
-table.large-button:hover td {
-background: #2795b6 !important;
-}
-table.button:hover td a {
-color: #ffffff !important;
-}
-table.button:active td a {
-color: #ffffff !important;
-}
-table.button td a:visited {
-color: #ffffff !important;
-}
-table.tiny-button:hover td a {
-color: #ffffff !important;
-}
-table.tiny-button:active td a {
-color: #ffffff !important;
-}
-table.tiny-button td a:visited {
-color: #ffffff !important;
-}
-table.small-button:hover td a {
-color: #ffffff !important;
-}
-table.small-button:active td a {
-color: #ffffff !important;
-}
-table.small-button td a:visited {
-color: #ffffff !important;
-}
-table.medium-button:hover td a {
-color: #ffffff !important;
-}
-table.medium-button:active td a {
-color: #ffffff !important;
-}
-table.medium-button td a:visited {
-color: #ffffff !important;
-}
-table.large-button:hover td a {
-color: #ffffff !important;
-}
-table.large-button:active td a {
-color: #ffffff !important;
-}
-table.large-button td a:visited {
-color: #ffffff !important;
-}
-table.secondary:hover td {
-background: #d0d0d0 !important; color: #555;
-}
-table.secondary:hover td a {
-color: #555 !important;
-}
-table.secondary td a:visited {
-color: #555 !important;
-}
-table.secondary:active td a {
-color: #555 !important;
-}
-table.success:hover td {
-background: #457a1a !important;
-}
-table.alert:hover td {
-background: #970b0e !important;
-}
-@media only screen and (max-width: 600px) {
-  table[class="body"] img {
-    width: auto !important; height: auto !important;
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <!--<![endif]-->
+
+  <!--[if (gte mso 9)|(IE)]><style type="text/css">
+  table {border-collapse: collapse;}
+  table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+  img {-ms-interpolation-mode: bicubic;}
+  </style>
+  <![endif]-->
+  <style type="text/css">
+  body {
+    color: #444444;
   }
-  table[class="body"] center {
-    min-width: 0 !important;
+  body a {
+    color: #1188e6;
+    text-decoration: none;
   }
-  table[class="body"] .container {
-    width: 95% !important;
+  p { margin: 0; padding: 0; }
+  table[class="wrapper"] {
+    width:100% !important;
+    table-layout: fixed;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
   }
-  table[class="body"] .row {
-    width: 100% !important; display: block !important;
+  img[class="max-width"] {
+    max-width: 100% !important;
   }
-  table[class="body"] .wrapper {
-    display: block !important; padding-right: 0 !important;
+  @media screen and (max-width:480px) {
+    .preheader .rightColumnContent,
+    .footer .rightColumnContent {
+        text-align: left !important;
+    }
+    .preheader .rightColumnContent div,
+    .preheader .rightColumnContent span,
+    .footer .rightColumnContent div,
+    .footer .rightColumnContent span {
+      text-align: left !important;
+    }
+    .preheader .rightColumnContent,
+    .preheader .leftColumnContent {
+      font-size: 80% !important;
+      padding: 5px 0;
+    }
+    table[class="wrapper-mobile"] {
+      width: 100% !important;
+      table-layout: fixed;
+    }
+    img[class="max-width"] {
+      height: auto !important;
+    }
+    a[class="bulletproof-button"] {
+      display: block !important;
+      width: auto !important;
+      font-size: 80%;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    // 2 columns
+    #templateColumns{
+        width:100% !important;
+    }
+
+    .templateColumnContainer{
+        display:block !important;
+        width:100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
   }
-  table[class="body"] .columns {
-    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
-  }
-  table[class="body"] .column {
-    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
-  }
-  table[class="body"] .wrapper.first .columns {
-    display: table !important;
-  }
-  table[class="body"] .wrapper.first .column {
-    display: table !important;
-  }
-  table[class="body"] table.columns td {
-    width: 100% !important;
-  }
-  table[class="body"] table.column td {
-    width: 100% !important;
-  }
-  table[class="body"] .columns td.one {
-    width: 8.333333% !important;
-  }
-  table[class="body"] .column td.one {
-    width: 8.333333% !important;
-  }
-  table[class="body"] .columns td.two {
-    width: 16.666666% !important;
-  }
-  table[class="body"] .column td.two {
-    width: 16.666666% !important;
-  }
-  table[class="body"] .columns td.three {
-    width: 25% !important;
-  }
-  table[class="body"] .column td.three {
-    width: 25% !important;
-  }
-  table[class="body"] .columns td.four {
-    width: 33.333333% !important;
-  }
-  table[class="body"] .column td.four {
-    width: 33.333333% !important;
-  }
-  table[class="body"] .columns td.five {
-    width: 41.666666% !important;
-  }
-  table[class="body"] .column td.five {
-    width: 41.666666% !important;
-  }
-  table[class="body"] .columns td.six {
-    width: 50% !important;
-  }
-  table[class="body"] .column td.six {
-    width: 50% !important;
-  }
-  table[class="body"] .columns td.seven {
-    width: 58.333333% !important;
-  }
-  table[class="body"] .column td.seven {
-    width: 58.333333% !important;
-  }
-  table[class="body"] .columns td.eight {
-    width: 66.666666% !important;
-  }
-  table[class="body"] .column td.eight {
-    width: 66.666666% !important;
-  }
-  table[class="body"] .columns td.nine {
-    width: 75% !important;
-  }
-  table[class="body"] .column td.nine {
-    width: 75% !important;
-  }
-  table[class="body"] .columns td.ten {
-    width: 83.333333% !important;
-  }
-  table[class="body"] .column td.ten {
-    width: 83.333333% !important;
-  }
-  table[class="body"] .columns td.eleven {
-    width: 91.666666% !important;
-  }
-  table[class="body"] .column td.eleven {
-    width: 91.666666% !important;
-  }
-  table[class="body"] .columns td.twelve {
-    width: 100% !important;
-  }
-  table[class="body"] .column td.twelve {
-    width: 100% !important;
-  }
-  table[class="body"] td.offset-by-one {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-two {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-three {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-four {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-five {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-six {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-seven {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-eight {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-nine {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-ten {
-    padding-left: 0 !important;
-  }
-  table[class="body"] td.offset-by-eleven {
-    padding-left: 0 !important;
-  }
-  table[class="body"] table.columns td.expander {
-    width: 1px !important;
-  }
-  table[class="body"] .right-text-pad {
-    padding-left: 10px !important;
-  }
-  table[class="body"] .text-pad-right {
-    padding-left: 10px !important;
-  }
-  table[class="body"] .left-text-pad {
-    padding-right: 10px !important;
-  }
-  table[class="body"] .text-pad-left {
-    padding-right: 10px !important;
-  }
-  table[class="body"] .hide-for-small {
-    display: none !important;
-  }
-  table[class="body"] .show-for-desktop {
-    display: none !important;
-  }
-  table[class="body"] .show-for-small {
-    display: inherit !important;
-  }
-  table[class="body"] .hide-for-desktop {
-    display: inherit !important;
-  }
-}
+  </style>
+  <style>
+  body, p, div { font-family: helvetica,arial,sans-serif; }
 </style>
-<table class="body" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
-	<tbody>
-		<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-			<td align="center" class="center" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
-			<center style="width: 100%; min-width: 580px;">
-			<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
-				<tbody>
-					<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-						<td align="left" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
-						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
-							<tbody>
-								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-									<td align="left" class="wrapper" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
-									<table class="one columns hide-for-small" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 30px; margin: 0 auto; padding: 0;">
-										<tbody>
-											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-												<td align="left" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" valign="top"><span class="sg-image" data-imagelibrary="%7B%22width%22%3A0%2C%22height%22%3A0%2C%22alignment%22%3A%22%22%2C%22border%22%3A0%2C%22src%22%3A%22http%3A//inmotion.dfmdemos.com/lwn/78248/shadow-left.gif%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D"><img align="right" src="http://inmotion.dfmdemos.com/lwn/78248/shadow-left.gif" style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both;" /></span></td>
-												<td align="left" class="expander" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">&nbsp;</td>
-											</tr>
-										</tbody>
-									</table>
-									</td>
-									<td align="left" class="wrapper" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
-									<table class="ten columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 480px; margin: 0 auto; padding: 0;">
-										<tbody>
-											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-												<td align="left" class="sub-grid" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" valign="top">
-												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; padding: 0;">
-													<tbody>
-														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-															<td align="left" class="twelve sub-columns" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; min-width: 0px; width: 100%; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"><span class="sg-image" data-imagelibrary="%7B%22width%22%3A%22575%22%2C%22height%22%3A%22479%22%2C%22alignment%22%3A%22%22%2C%22src%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/d3cf602872e10d9319bf3c21db0508eb6b999d5809a2bc260fc47848c5a438f1843002df2c7a673d37c299ee87064a7854fb9f8d0cdd595a330e763f8fbd0955.jpg%22%2C%22alt_text%22%3A%22%22%2C%22link%22%3A%22%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D"><img height="479" src="https://marketing-image-production.s3.amazonaws.com/uploads/d3cf602872e10d9319bf3c21db0508eb6b999d5809a2bc260fc47848c5a438f1843002df2c7a673d37c299ee87064a7854fb9f8d0cdd595a330e763f8fbd0955.jpg" style="width: 575px; height: 479px;" width="575" /></span></td>
-														</tr>
-														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-															<td align="left" class="pad" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 20px 0;" valign="top">
-															<div><span class="sg-image" data-imagelibrary="%7B%22width%22%3A%22500%22%2C%22height%22%3A%2265%22%2C%22alignment%22%3A%22%22%2C%22src%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/dbe6128d656b80411db3f251b151f1dd1b5d5711ef03c5e81336365d2eab60cd2c7fe12b8ae041bb6d61da7d238b0707965f2da1e2da65c0f62527f54df7af64.png%22%2C%22alt_text%22%3A%22%22%2C%22link%22%3A%22%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D"><img height="65" src="https://marketing-image-production.s3.amazonaws.com/uploads/dbe6128d656b80411db3f251b151f1dd1b5d5711ef03c5e81336365d2eab60cd2c7fe12b8ae041bb6d61da7d238b0707965f2da1e2da65c0f62527f54df7af64.png" style="width: 500px; height: 65px;" width="500" /></span></div>
-
-															<div>&nbsp;</div>
-															</td>
-														</tr>
-														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-															<td align="left" class="pad" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 20px 10px;" valign="top">
-															<p align="left" style="color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 24px; font-size: 16px; margin: 0 0 10px; padding: 0;"><span style="font-size: 14px; line-height: 19px;">The&nbsp;Phantom Screens Impact Award recognizes residential design and building professionals for integrating Phantom&rsquo;s retractable screen products into your designs</span></p>
-
-															<div><strong>Entering is simple!</strong></div>
-
-															<div>&nbsp;</div>
-
-															<div>Tell us why you chose Phantom Screens product and how retractable screens helped you achieve your design goals.&nbsp;Be sure to include&nbsp;a minimum of (3) photos.</div>
-
-															<div>&nbsp;</div>
-
-															<div><strong>Look at just SOME of&nbsp;the things you get for winning!</strong></div>
-
-															<ul>
-																<li>A one-page advertorial feature in Builder magazine</li>
-																<li>Booth signage at 2017 NAHB International Builders Show</li>
-																<li>National press release announcement</li>
-																<li>Exclusive feature on Phantom Screens website</li>
-																<li>And more!</li>
-															</ul>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-
-												<table cellpadding="0" cellspacing="0">
-													<tbody>
-														<tr>
-														</tr>
-													</tbody>
-												</table>
-
-												<table cellpadding="0" cellspacing="0">
-													<tbody>
-														<tr>
-															<td align="center" bgcolor="#88dbdf" height="40" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #ffffff; display: block;" width="300"><a href="http://www.phantomscreens.com/impact-award/" style="font-size:16px; font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px;                                                                 width:100%; display:inline-block"><span style="color: #ffffff;">Enter Now! </span> </a></td>
-														</tr>
-													</tbody>
-												</table>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-
-									<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; padding: 0;">
-										<tbody>
-											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-												<td align="left" class="twelve sub-columns pad" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; min-width: 0px; width: 100%; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 20px 0;" valign="top">
-												<p align="left" style="color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0 0 10px; padding: 0;">&nbsp;</p>
-												<span class="sg-image" data-imagelibrary="%7B%22width%22%3A0%2C%22height%22%3A0%2C%22alignment%22%3A%22%22%2C%22border%22%3A0%2C%22src%22%3A%22http%3A//inmotion.dfmdemos.com/lwn/78248/pin-line.gif%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D"><img align="left" src="http://inmotion.dfmdemos.com/lwn/78248/pin-line.gif" style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both;" /></span></td>
-											</tr>
-											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-												<td align="left" class="pad" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 20px 10px;" valign="top">
-												<p align="left" style="color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0 0 10px; padding: 0;">&nbsp;</p>
-												</td>
-											</tr>
-											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-												<td align="left" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" valign="top">
-												<p align="left" class="pad" style="font-size: 12px !important; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; margin: 0 0 10px; padding: 0 20px;"><span style="font-size: 14px;">Please reply to this email if you do not want to receive these communications.</span></p>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-									</td>
-									<td align="left" class="expander" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">&nbsp;</td>
-								</tr>
-							</tbody>
-						</table>
-						</td>
-						<td align="left" class="wrapper last" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
-						<table class="one columns hide-for-small" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 30px; margin: 0 auto; padding: 0;">
-							<tbody>
-								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
-									<td align="left" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" valign="top"><span class="sg-image" data-imagelibrary="%7B%22width%22%3A0%2C%22height%22%3A0%2C%22alt_text%22%3A%22%22%2C%22alignment%22%3A%22%22%2C%22border%22%3A0%2C%22src%22%3A%22http%3A//inmotion.dfmdemos.com/lwn/78248/shadow-right.gif%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D"><img align="left" alt="" src="http://inmotion.dfmdemos.com/lwn/78248/shadow-right.gif" style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both;" /></span></td>
-									<td align="left" class="expander" style="word-break: break-word; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #52626f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">&nbsp;</td>
-								</tr>
-							</tbody>
-						</table>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			</center>
-			</td>
-		</tr>
-	</tbody>
+  <style>
+  body, p, div { font-size: 16px; }
+</style>
+</head>
+<body yahoofix="true" style="min-width: 100%; margin: 0; padding: 0; font-size: 16px; font-family: helvetica,arial,sans-serif; color: #444444; background-color: #EEEEEE; color: #444444;" data-attributes='%7B%22dropped%22%3Atrue%2C%22bodybackground%22%3A%22%23FFFFFF%22%2C%22bodyfontname%22%3A%22helvetica%2Carial%2Csans-serif%22%2C%22bodytextcolor%22%3A%22%23444444%22%2C%22bodylinkcolor%22%3A%22%231188e6%22%2C%22bodyfontsize%22%3A16%7D'>
+  <center class="wrapper">
+    <div class="webkit">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%" class="wrapper" bgcolor="#EEEEEE">
+      <tr><td valign="top" bgcolor="#EEEEEE" width="100%">
+      <!--[if (gte mso 9)|(IE)]>
+      <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+          <![endif]-->
+            <table width="100%" role="content-container" class="outer" data-attributes='%7B%22dropped%22%3Atrue%2C%22containerpadding%22%3A%220%2C0%2C0%2C0%22%2C%22containerwidth%22%3A600%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D' align="center" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td width="100%"><table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td>
+                    <!--[if (gte mso 9)|(IE)]>
+                      <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td>
+                            <![endif]-->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; max-width:600px;" align="center">
+                                <tr><td role="modules-container" style="padding: 0px 0px 0px 0px; color: #444444; text-align: left;" bgcolor="#EEEEEE" width="100%" align="left">
+                                  <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;" class="module preheader preheader-hide" role="module" data-type="preheader">
+  <tr><td role="module-content"><p></p></td></tr>
 </table>
+<table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D'>
+<tr>
+  <td role="module-content"  valign="top" height="100%" style="padding: 0px 0px 0px 0px;" bgcolor="#EEEEEE"><div style="text-align: right;"><span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:10px;">Email not displaying correctly? <a href="[weblink]"><span style="color:#1188E6;">View it</span></a> in your browser.</span></span></div> </td>
+</tr>
+</table>
+<table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22spacing%22%3A2%2C%22containerbackground%22%3A%22%23444444%22%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 2px 0px;" bgcolor="#444444"></td></tr></table>
+<table role="module" data-type="image" border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" class="wrapper" data-attributes='%7B%22child%22%3Afalse%2C%22link%22%3A%22http%3A//phantomscreens.com%22%2C%22width%22%3A%22230%22%2C%22height%22%3A%2264%22%2C%22imagebackground%22%3A%22%23FFFFFF%22%2C%22url%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/d5d82bb3ba449a1eb0943e9580cf71d78a7b9605f2a9a677cba369d0a32d72a3d4e32361f0466a031059acb75f7079b740a69d8a58eef5f715a1b4bcd6542966.png%22%2C%22alt_text%22%3A%22%22%2C%22dropped%22%3Atrue%2C%22imagemargin%22%3A%2220%2C20%2C20%2C20%22%2C%22alignment%22%3A%22center%22%2C%22responsive%22%3Afalse%7D'>
+<tr>
+  <td style="font-size:6px;line-height:10px;background-color:#FFFFFF;padding: 20px 20px 20px 20px;" valign="top" align="center" role="module-content">
+<a href="http://phantomscreens.com" target="_blank">
+  <img class="max-width"  width="230"   height="64"  src="https://marketing-image-production.s3.amazonaws.com/uploads/d5d82bb3ba449a1eb0943e9580cf71d78a7b9605f2a9a677cba369d0a32d72a3d4e32361f0466a031059acb75f7079b740a69d8a58eef5f715a1b4bcd6542966.png" alt="" border="0" style="display: block; color: #000; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px; " />
+</a>
+</td>
+</tr>
+</table><table role="module" data-type="image" border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" class="wrapper" data-attributes='%7B%22child%22%3Afalse%2C%22link%22%3A%22http%3A//www.phantomscreens.com/impact-award/%22%2C%22width%22%3A%22600%22%2C%22height%22%3A%22367%22%2C%22imagebackground%22%3A%22%23FFFFFF%22%2C%22url%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/d49b141381e41fdd36c7c70e1af4b112f10a41e11fe7118c5bab6b0e0ea23f78e8e9e339870762300b377eee9f69c97334a2d9cecf6be45075e0679fb1aefdde.jpg%22%2C%22alt_text%22%3A%22%22%2C%22dropped%22%3Atrue%2C%22imagemargin%22%3A%220%2C0%2C0%2C0%22%2C%22alignment%22%3A%22%22%2C%22responsive%22%3Afalse%7D'>
+<tr>
+  <td style="font-size:6px;line-height:10px;background-color:#FFFFFF;padding: 0px 0px 0px 0px;" valign="top" align="" role="module-content">
+<a href="http://www.phantomscreens.com/impact-award/" target="_blank">
+  <img class="max-width"  width="600"   height="367"  src="https://marketing-image-production.s3.amazonaws.com/uploads/d49b141381e41fdd36c7c70e1af4b112f10a41e11fe7118c5bab6b0e0ea23f78e8e9e339870762300b377eee9f69c97334a2d9cecf6be45075e0679fb1aefdde.jpg" alt="" border="0" style="display: block; color: #000; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px; " />
+</a>
+</td>
+</tr>
+</table><table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22spacing%22%3A2%2C%22containerbackground%22%3A%22%23444444%22%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 2px 0px;" bgcolor="#444444"></td></tr></table>
+<table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%2236%2C20%2C36%2C20%22%2C%22containerbackground%22%3A%22%23FFFFFF%22%7D'>
+<tr>
+  <td role="module-content"  valign="top" height="100%" style="padding: 36px 20px 36px 20px;" bgcolor="#FFFFFF"><div>The 2016 Phantom Screens Impact Award recognizes residential design and building professionals for integrating Phantom’s retractable screen products into designs that deliver added value and comfort to today’s homeowner.</div>  <div>&nbsp;</div>  <div>Here are just SOME of the things this year’s winner will receive!</div>  <div>&nbsp;</div>  <div>• National press release announcement<br> • Exclusive feature on Phantom Screens website<br> • Booth signage at NAHB International Builders Show<br> • A one-page advertorial feature in Builder magazine</div> </td>
+</tr>
+</table>
+<table class="module" role="module" data-type="button" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22borderradius%22%3A0%2C%22buttonpadding%22%3A%2212%2C18%2C12%2C18%22%2C%22text%22%3A%22Find%2520out%2520more%2521%22%2C%22alignment%22%3A%22center%22%2C%22fontsize%22%3A16%2C%22url%22%3A%22http%253A//www.phantomscreens.com/impact-award/%22%2C%22height%22%3A%22%22%2C%22width%22%3A%22%22%2C%22containerbackground%22%3A%22%23FFFFFF%22%2C%22padding%22%3A%220%2C0%2C25%2C0%22%2C%22buttoncolor%22%3A%22%23003158%22%2C%22textcolor%22%3A%22%23ffffff%22%2C%22bordercolor%22%3A%22%23003158%22%7D'>
+<tr>
+  <td style="padding: 0px 0px 25px 0px;" align="center" bgcolor="#FFFFFF">
+    <table border="0" cellpadding="0" cellspacing="0" class="wrapper-mobile">
+      <tr>
+        <td align="center" style="-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; font-size: 16px;" bgcolor="#003158">
+          <a href="http://www.phantomscreens.com/impact-award/" class="bulletproof-button" target="_blank" style="height: px; width: px; font-size: 16px; line-height: px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; padding: 12px 18px 12px 18px; text-decoration: none; color: #ffffff; text-decoration: none; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; border: 1px solid #003158; display: inline-block;">Find out more!</a>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22linecolor%22%3A%22%23000000%22%2C%22height%22%3A3%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 0px 0px;" bgcolor="#ffffff">
+  <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" height="3"  style="font-size: 3px; line-height: 3px;">
+    <tr><td bgcolor="#000000">&nbsp;</td></tr>
+  </table>
+</td></tr></table>
+<table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22linecolor%22%3A%22%23000000%22%2C%22height%22%3A0%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 0px 0px;" bgcolor="#ffffff">
+  <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" height="0"  style="font-size: 0px; line-height: 0px;">
+    <tr><td bgcolor="#000000">&nbsp;</td></tr>
+  </table>
+</td></tr></table>
+<table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22linecolor%22%3A%22%23000000%22%2C%22height%22%3A1%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 0px 0px;" bgcolor="#ffffff">
+  <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" height="1"  style="font-size: 1px; line-height: 1px;">
+    <tr><td bgcolor="#000000">&nbsp;</td></tr>
+  </table>
+</td></tr></table>
+<table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22spacing%22%3A50%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 50px 0px;" bgcolor="#EEEEEE"></td></tr></table>
+<table role="module" data-type="image" border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" class="wrapper" data-attributes='%7B%22child%22%3Afalse%2C%22link%22%3A%22%22%2C%22width%22%3A%22600%22%2C%22height%22%3A%22348%22%2C%22imagebackground%22%3A%22%23FFFFFF%22%2C%22url%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/6740eb0e466fff9c8b8d0e7c98b1179584d73194b1645049d624a3182f3f85f97def377cf2a2cf6b43231ae40847a52d6d57b87d0ca143c521945bfc950dae38.jpg%22%2C%22alt_text%22%3A%22%22%2C%22dropped%22%3Atrue%2C%22imagemargin%22%3A%220%2C0%2C0%2C0%22%2C%22alignment%22%3A%22%22%2C%22responsive%22%3Afalse%7D'>
+<tr>
+  <td style="font-size:6px;line-height:10px;background-color:#FFFFFF;padding: 0px 0px 0px 0px;" valign="top" align="" role="module-content">
+
+  <img class="max-width"  width="600"   height="348"  src="https://marketing-image-production.s3.amazonaws.com/uploads/6740eb0e466fff9c8b8d0e7c98b1179584d73194b1645049d624a3182f3f85f97def377cf2a2cf6b43231ae40847a52d6d57b87d0ca143c521945bfc950dae38.jpg" alt="" border="0" style="display: block; color: #000; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px; " />
+
+</td>
+</tr>
+</table><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%2234%2C20%2C34%2C20%22%2C%22containerbackground%22%3A%22%23FFFFFF%22%7D'>
+<tr>
+  <td role="module-content"  valign="top" height="100%" style="padding: 34px 20px 34px 20px;" bgcolor="#FFFFFF"><div>Come enjoy cocktails and appetizers with Wayne Visbeen, award winning architect and custom design consultant. Wayne will be presenting creative ideas on innovations being made in architectural movement to create home flexibility and space efficiencies.</div>  <div>&nbsp;</div>  <div>June 22, 2016 5:30 - 6:30 PM<br> &nbsp;<br> MaSo Restaurant @ the Park Central Hotel:<br> only a 5 minute walk from the Moscone Center<br> &nbsp;<br> 50 Third Street, San Francisco, CA 94103<br> &nbsp;<br> RSVP today to marketing@phantomscreens.com</div> </td>
+</tr>
+</table>
+<table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22spacing%22%3A3%2C%22containerbackground%22%3A%22%23444444%22%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 3px 0px;" bgcolor="#444444"></td></tr></table>
+<table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22spacing%22%3A50%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 50px 0px;" bgcolor="#EEEEEE"></td></tr></table>
+<table role="module" data-type="image" border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" class="wrapper" data-attributes='%7B%22child%22%3Afalse%2C%22link%22%3A%22http%3A//www.phantomscreens.com/retractable-large-openings/introducing-vinyl/%22%2C%22width%22%3A%22600%22%2C%22height%22%3A%22359%22%2C%22imagebackground%22%3A%22%23FFFFFF%22%2C%22url%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/62d432cf36d2037854a598a9276738ef80e54ba267c7efccdf6f9960fa700ad4f472c9c48c388b9f7c47010d8be514ef58ac82899cf5138cd08504b44556fccb.jpg%22%2C%22alt_text%22%3A%22%22%2C%22dropped%22%3Atrue%2C%22imagemargin%22%3A%220%2C0%2C0%2C0%22%2C%22alignment%22%3A%22%22%2C%22responsive%22%3Afalse%7D'>
+<tr>
+  <td style="font-size:6px;line-height:10px;background-color:#FFFFFF;padding: 0px 0px 0px 0px;" valign="top" align="" role="module-content">
+<a href="http://www.phantomscreens.com/retractable-large-openings/introducing-vinyl/" target="_blank">
+  <img class="max-width"  width="600"   height="359"  src="https://marketing-image-production.s3.amazonaws.com/uploads/62d432cf36d2037854a598a9276738ef80e54ba267c7efccdf6f9960fa700ad4f472c9c48c388b9f7c47010d8be514ef58ac82899cf5138cd08504b44556fccb.jpg" alt="" border="0" style="display: block; color: #000; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px; " />
+</a>
+</td>
+</tr>
+</table><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%2223%2C20%2C25%2C20%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr>
+  <td role="module-content"  valign="top" height="100%" style="padding: 23px 20px 25px 20px;" bgcolor="#ffffff"><div>With clear vinyl walls by Phantom Screens, you can create the perfect transitional living space to entertain your guests throughout the year. In the colder months, studies have shown that it reduces heat loss, while in the warm months it helps to keep your living space cool all at the touch of a button!</div> </td>
+</tr>
+</table>
+<table class="module" role="module" data-type="button" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22borderradius%22%3A0%2C%22buttonpadding%22%3A%2212%2C18%2C12%2C18%22%2C%22text%22%3A%22Find%2520out%2520more%2521%22%2C%22alignment%22%3A%22center%22%2C%22fontsize%22%3A16%2C%22url%22%3A%22http%253A//www.phantomscreens.com/retractable-large-openings/introducing-vinyl/%22%2C%22height%22%3A%22%22%2C%22width%22%3A%22%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22padding%22%3A%220%2C0%2C25%2C0%22%2C%22buttoncolor%22%3A%22%23003158%22%2C%22textcolor%22%3A%22%23ffffff%22%2C%22bordercolor%22%3A%22%23003158%22%7D'>
+<tr>
+  <td style="padding: 0px 0px 25px 0px;" align="center" bgcolor="#ffffff">
+    <table border="0" cellpadding="0" cellspacing="0" class="wrapper-mobile">
+      <tr>
+        <td align="center" style="-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; font-size: 16px;" bgcolor="#003158">
+          <a href="http://www.phantomscreens.com/retractable-large-openings/introducing-vinyl/" class="bulletproof-button" target="_blank" style="height: px; width: px; font-size: 16px; line-height: px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; padding: 12px 18px 12px 18px; text-decoration: none; color: #ffffff; text-decoration: none; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; border: 1px solid #003158; display: inline-block;">Find out more!</a>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22linecolor%22%3A%22%23000000%22%2C%22height%22%3A3%7D'>
+<tr><td role="module-content" style="padding: 0px 0px 0px 0px;" bgcolor="#ffffff">
+  <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" height="3"  style="font-size: 3px; line-height: 3px;">
+    <tr><td bgcolor="#000000">&nbsp;</td></tr>
+  </table>
+</td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="module footer" role="module" data-type="footer" data-attributes='%7B%22dropped%22%3Atrue%2C%22columns%22%3A%222%22%2C%22padding%22%3A%2223%2C5%2C40%2C5%22%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D'>
+  <tr><td style="padding: 23px 5px 40px 5px;" bgcolor="#EEEEEE">
+    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+      <tr role="module-content">
+        
+        <td align="center" valign="top" width="50%" height="100%" class="templateColumnContainer">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+            <tr>
+              <td class="leftColumnContent" role="column-one" height="100%" style="height:100%;"><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D'>
+<tr>
+  <td role="module-content"  valign="top" height="100%" style="padding: 0px 0px 0px 0px;" bgcolor="#EEEEEE"><div>&nbsp;</div>  <div>&nbsp;</div>  <div><span style="color:#7F7F7F;"><span style="font-size:10px;">Vinyl launched to market, PCBC event, and the first annual Impact Award.</span></span></div>  <div>&nbsp;</div> </td>
+</tr>
+</table>
+</td>
+            </tr>
+          </table>
+        </td>
+        <td align="center" valign="top" width="50%" height="100%" class="templateColumnContainer">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+            <tr>
+              <td class="rightColumnContent" role="column-two" height="100%" style="height:100%;"><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed;" data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23EEEEEE%22%7D'>
+<tr>
+  <td role="module-content"  valign="top" height="100%" style="padding: 0px 0px 0px 0px;" bgcolor="#EEEEEE"> <div style="text-align: right;"> <span style="color:#7F7F7F;"><span style="font-size:10px;">[Sender_Name]</span></span> </div> <div style="text-align: right;"> <span style="color:#7F7F7F;"><span style="font-size:10px;">[Sender_Address]</span></span> </div> <div style="text-align: right;"> <span style="color:#7F7F7F;"><span style="font-size:10px;">[Sender_City], [Sender_State] [Sender_Zip]</span></span> </div> <div style="text-align: right;"> &nbsp;</div> <div style="text-align: right;"> <span style="font-size:10px;"><a href="[Unsubscribe]"><span style="color:#1188E6;">Unsubscribe</span></a><span style="color:#000000;"> | </span><a href="[Unsubscribe_Preferences]"><span style="color:#1188E6;">Update Preferences</span></a></span> </div> </td>
+</tr>
+</table>
+</td>
+            </tr>
+          </table>
+        </td>
+        
+      </tr>
+    </table>
+  </td></tr>
+</table>
+
+                                </tr></td>
+                              </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </td>
+                      </table>
+                    <![endif]-->
+                    </td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      </tr></td>
+      </table>
+    </div>
+  </center>
 </body>
 </html>
